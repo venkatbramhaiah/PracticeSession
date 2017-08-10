@@ -13,7 +13,10 @@ package StringLogical;
 
 public class StringReverese {
  	public static void main(String[] args) {
+String str3="srikanth";
+String str1=new String("srikanth");
 
+System.out.println(System.identityHashCode(str3)+"   "+System.identityHashCode(str1));
 		String str="Yarramneedi";
 	// using StiringBuffer==========	
 		StringBuffer sb=new StringBuffer(str).reverse();
